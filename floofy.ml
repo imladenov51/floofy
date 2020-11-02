@@ -4,7 +4,7 @@ let _ =
       print_endline "Bork, give more file.";
       exit 1
     ) else (
-      if Array.lenght Sys.argv > 2 then (
+      if Array.length Sys.argv > 2 then (
         print_endline "Bork, give less file."
         exit 1
       ) else ( 
