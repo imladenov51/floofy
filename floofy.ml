@@ -5,7 +5,7 @@ let _ =
       exit 1
     ) else (
       if Array.length Sys.argv > 2 then (
-        print_endline "Bork, give less file."
+        print_endline "Bork, give less file.";
         exit 1
       ) else ( 
         let x = open_in Sys.argv.(1) in 
